@@ -1,33 +1,31 @@
 body{
+   padding: 20px;
+   overflow-x: hidden;
+}
+.principal{
+    width:97% ;
+    height:auto;
     padding: 20px;
-    overflow-x: hidden;
-    background-color: black;
-    color: aqua;
- }
- .principal{
-     width:97% ;
-     height: 100px;
-     padding: 20px;
-     text-align: center;
-     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-     margin-bottom: 100px;
- }
- 
- .divCalculos{
-     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-     margin-top: 100px;
-     display: flex;
-     padding: 20px;
-     align-items: center;
-     flex-wrap: wrap;
-     justify-content: space-evenly;
- }
- 
- 
- .font-style{
-     font-size: 3rem;
-     font-family: 'Black Ops One', system-ui;
- }
- .font-style02{
-     font-size: 1.8rem;
- }
+    text-align: center;
+}
+
+.font-style{
+    border-bottom: 2px solid lightgray;
+    font-size: 3rem;
+    font-family: 'Single Day', cursive;
+    padding-bottom: 15px;
+}
+.font-style02{
+    font-size: 1.8rem;
+    color:darkgrey
+}
+
+.div-calculos{
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
