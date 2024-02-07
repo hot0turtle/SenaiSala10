@@ -16,6 +16,7 @@ header{
     background-color: deeppink;
     line-height: 45px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    z-index: 999;
 }
 
 ul{
@@ -41,13 +42,25 @@ text-decoration: underline;
 .p1{
     padding-top: 50px;
     background-color: lightsalmon;
-    height: 600px;
+    height: 600px;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .p2{
 padding-top: 50px;
 background-color: darkmagenta;
 height: 600px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+gap: 20px;
 }
 
 .tec{
@@ -78,4 +91,21 @@ height: 500px;
 background-color: limegreen;
 width: 600px;
 height: 500px;
+}
+
+.rel{
+position: relative;
+width: 400px;
+height: 400px;
+overflow: hidden;
+border-radius: 100%;
+}
+
+.rel1{
+position: relative;
+width: 400px;
+height: 400px;
+overflow: hidden;
+border-radius: 100%;
+}
 }
