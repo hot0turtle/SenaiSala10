@@ -8,7 +8,7 @@
 header{
     width: 100%;
     height: 50px;
-    background-color: lightgray;
+    background-color: deeppink;
     line-height: 45px;
 }
 
@@ -27,4 +27,23 @@ a{
 
 a:hover{
 text-decoration: underline;
+}
+
+.p1{
+    background-color: lightsalmon;
+    height: 600px;
+}
+
+.p2{
+background-color: tomato;
+height: 600px;
+}
+
+.tec{
+background-color: cornflowerblue;
+height: 600px;
+}
+.cont {
+background-color: greenyellow;
+height: 600px;
 }
