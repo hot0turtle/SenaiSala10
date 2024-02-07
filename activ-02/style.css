@@ -99,6 +99,7 @@ width: 400px;
 height: 400px;
 overflow: hidden;
 border-radius: 100%;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
 .rel1{
@@ -107,5 +108,15 @@ width: 400px;
 height: 400px;
 overflow: hidden;
 border-radius: 100%;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
+
+img{
+    position: absolute;
+    transition: all 400ms linear;
+}
+
+img:hover{
+ transform: scale(1.2);
+ transition: all 200ms linear;
 }
