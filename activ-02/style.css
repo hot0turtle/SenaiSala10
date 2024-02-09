@@ -92,6 +92,7 @@ height: 600px;
 background-color: limegreen;
 width: 600px;
 height: 600px;
+padding: 15px;
 }
 
 .rel{
@@ -112,14 +113,14 @@ border-radius: 100%;
 box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 }
 
-img{
+#perfil{
     position: absolute;
     transition: all 400ms linear;
 }
 
-img:hover{
- transform: scale(1.2);
- transition: all 200ms linear;
+#perfil:hover{
+    transform: scale(1.2);
+    transition: all 200ms linear;
 }
 
 .campos{
@@ -164,4 +165,11 @@ textarea{
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+  }
+
+  .logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: align space-evenly;
+    align-items: center;
   }

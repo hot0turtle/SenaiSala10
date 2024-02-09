@@ -23,7 +23,7 @@
     <div class="p1" id="per1">
         <div>
             <div class="rel">
-                <img src="https://www.saogoncalo.rj.gov.br/wp-content/uploads/2022/09/Diogo-Defante-foto-Divulgacao.jpeg" alt="img01" height="400" width="400">
+                <img src="https://www.saogoncalo.rj.gov.br/wp-content/uploads/2022/09/Diogo-Defante-foto-Divulgacao.jpeg" alt="img01" id="perfil" height="400" width="400">
             </div>
         </div>
         <div>
@@ -34,7 +34,7 @@
     <div class="p2" id="per2">
         <div>
             <div class="rel1">
-                <img src="https://cdn.thisiswhyimbroke.com/thumb/elden-ring-alexander-the-iron-fist_400x333.jpg" alt="" width="400" height="400">
+                <img src="https://cdn.thisiswhyimbroke.com/thumb/elden-ring-alexander-the-iron-fist_400x333.jpg" alt="" id="perfil" width="400" height="400">
             </div>
         </div>
         <div>
@@ -44,6 +44,11 @@
     </div>
     <div class="tec" id="tecn">
         <h1>Tecnologia</h1>
+        <div class="logos">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2048px-HTML5_logo_and_wordmark.svg.png" alt="" width="400" height="400">
+            <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" alt="" width="" height="400">
+            <img src="https://logos-world.net/wp-content/uploads/2023/02/JavaScript-Logo.png" alt="" width="" height="400">
+        </div>
     </div>
     <div class="cont" id="conta">
         <div class="leftcontact">
@@ -54,16 +59,22 @@
                 <input type="text" placeholder="Seu nome ..." id="nome">
                 <label for="email">email</label>
                 <input type="text" placeholder="Seu email ..." id="email">
-                <label for="contato">contato</label>
-                <input type="number" placeholder="Seu numero ..." id="contato">
+                <label for="contato">CPF</label>
+                <input type="number" placeholder="Seu CPF ..." id="contato">
                 <label for="area">Sua mensagem</label>
                 <textarea name="]" id="area" cols="30" rows="10" placeholder="Sua mensagem ..."></textarea>
-                <button id="button">Enviar</button>
+                <button id="buttofuncn" onclick="enviar()">Enviar</button>
             </div>
         </DIV>
 
         <div class="rightcontact">
-            <p>exemple</p>
+            <div>
+                <p>Nome: <span id="confNome"></span></p>
+                <p>Email: <span id="confEmail"></span></p>
+                <p>Cpf: <span id="confCpf"></span></p>
+                <p>Mensagem: <span id="confMsg"></span></p>
+            </div>
+            <button class="" onclick="envia()">Whatsapp</button>
         </div>
     </div>
 </body>
