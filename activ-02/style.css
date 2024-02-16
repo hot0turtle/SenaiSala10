@@ -56,7 +56,7 @@ padding-top: 50px;
 background-color: darkmagenta;
 height: 800px;
 display: flex;
-flex-direction: row;
+flex-direction: row-reverse;
 flex-wrap: wrap;
 align-items: center;
 justify-content: center;
