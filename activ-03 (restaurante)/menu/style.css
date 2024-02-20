@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    background-image: url("../imagens/blurred-background-of-a-restaurant-bar-interior-with-a-wooden-table-vertical-mobile-wallpaper-ai-generated-free-photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: auto;
+    transition: all 1s linear;
+    overflow: hidden;
+}
+
+.wrap-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    height: 100vh;
+    width: 100vw;
+}
