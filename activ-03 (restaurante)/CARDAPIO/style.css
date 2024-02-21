@@ -7,11 +7,15 @@ body{
     padding: 10px;
     overflow-x: hidden;
 }
-header {
+h2 {
+    display: flex;
     width:50px;
+    text-align: center;
 }
 
-
+.card{
+    margin: 5px;
+}
 .cards{
     display: g;
     flex-direction: column;
@@ -19,6 +23,14 @@ header {
     align-items: center;
     gap: 2vh;
 }
+
+.card-img-top{
+width: 286px;
+height: 180px;
+}
+
+
+
 
 @media (width >= 800px){
 .pratos{
