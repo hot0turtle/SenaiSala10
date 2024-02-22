@@ -6,6 +6,16 @@
 body{
     padding: 10px;
     overflow-x: hidden;
+    overflow-y: auto;
+    gap: 4vh;
+    background-image: url("../imagens/blurred-background-of-a-restaurant-bar-interior-with-a-wooden-table-vertical-mobile-wallpaper-ai-generated-free-photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 h2 {
     display: flex;
@@ -30,10 +40,26 @@ height: 180px;
 }
 
 
+.subtitulo{
+    background: inherit;
+    background-clip: text;
+    color: lightblue;
+    text-shadow: 2px 2px black;
+    margin-right: 150px;
+}
 
+.titulo{
+    color: transparent;
+    filter: invert(1);
+}
 
 @media (width >= 800px){
-.pratos{
+    
+    body {
+    background-image: url("../imagens/fundo-browser.jpg");
+    }
+
+    .pratos{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
