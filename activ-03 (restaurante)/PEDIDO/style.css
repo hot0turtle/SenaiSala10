@@ -1,0 +1,21 @@
+body{
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    gap: 4vh;
+    background-image: url("../imagens/blurred-background-of-a-restaurant-bar-interior-with-a-wooden-table-vertical-mobile-wallpaper-ai-generated-free-photo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (width >= 800px){
+    
+    body {
+    background-image: url("../imagens/fundo-browser.jpg");
+    }
+}
