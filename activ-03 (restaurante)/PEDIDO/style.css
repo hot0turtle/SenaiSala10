@@ -8,7 +8,7 @@ body{
     overflow-x: hidden;
     overflow-y: auto;
     gap: 4vh;
-    background-image: url("../imagens/blurred-background-of-a-restaurant-bar-interior-with-a-wooden-table-vertical-mobile-wallpaper-ai-generated-free-photo.jpg");
+    /* background-image: url("../imagens/blurred-background-of-a-restaurant-bar-interior-with-a-wooden-table-vertical-mobile-wallpaper-ai-generated-free-photo.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -19,11 +19,23 @@ body{
     color: whitesmoke;
 }
 
-#select-div{
-    display: none;
+.badge {
+  font-size: 1.3rem !important;
 }
 
+#selects-div{
+    display: none;
+    gap: ;
+}
 
+.botoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
 
 .error-modal{
     position: absolute;
@@ -110,9 +122,11 @@ body{
     border-radius: 10px;
   }
 
+  
+
 @media (width >= 800px){
     
     body {
-    background-image: url("../imagens/fundo-browser.jpg");
+    /* background-image: url("../imagens/fundo-browser.jpg"); */
     }
 }
