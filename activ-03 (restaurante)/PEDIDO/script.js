@@ -34,6 +34,22 @@ function total(){
 
 }
 
+function reset() {
+    $("#selectSobremesa option").prop("selected", function () {
+        // return defaultSelected property of the option
+        return 0;
+    });
+    $("#selectPrato option").prop("selected", function () {
+        // return defaultSelected property of the option
+        return 0;
+    });
+    $("#selectBebida option").prop("selected", function () {
+        // return defaultSelected property of the option
+        return 0;
+    });
+    total();
+ }
+
 function fazerPedido() {
-    
+
 }
