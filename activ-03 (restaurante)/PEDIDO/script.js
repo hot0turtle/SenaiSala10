@@ -28,8 +28,12 @@ function total(){
     
 
     var total = ~~vp + ~~vb + ~~vs
-    console.log(~~total)
-    console.log(typeof total);
+
+    document.getElementById('resultado').textContent = "R$" + total + ",00";
 
 
+}
+
+function fazerPedido() {
+    
 }

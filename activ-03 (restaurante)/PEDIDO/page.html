@@ -38,28 +38,28 @@
     <div id="selects-div" class="selects-div">
         <h2>Olá <span id="nomePrint"></span>, vamos começar a escolher sua refeição!</h2>
         <h3>Pratos</h3>
-        <select id="selectPrato" class="form-select" aria-label="Default select example">
+        <select onchange="total()" id="selectPrato" class="form-select" aria-label="Default select example">
             <option selected>Selecione um prato</option>
             <option value="10">Polenta com Queijo</option>
             <option value="19">Polenta Com Carne</option>
             <option value="8">Polenta com Molho</option>
         </select>
         <h3>Bebidas</h3>
-        <select id="selectBebida" class="form-select" aria-label="Default select example">
+        <select onchange="total()" id="selectBebida" class="form-select" aria-label="Default select example">
             <option selected>Selecione uma bebida</option>
             <option value="16">Gin Tropical</option>
             <option value="17">Gin e licor de Morango</option>
             <option value="20">Gin e Tônica</option>
         </select>
         <h3>Sobremesas</h3>
-        <select id="selectSobremesa" class="form-select" aria-label="Default select example">
+        <select onchange="total()" id="selectSobremesa" class="form-select" aria-label="Default select example">
             <option selected>Selecione uma sobremesa</option>
             <option value="70">Sorvete com frutas</option>
             <option value="1">Chocolate com Morango</option>
             <option value="100">Gelatina com Morango</option>
         </select>
         <div class="botoes">
-            <button onclick="total()" class="btn btn-success" type="button">Fazer Pedido</button>
+            <button onclick="fazerPedido()" class="btn btn-success" type="button">Fazer Pedido</button>
             <button onclick="limpar()" class="btn btn-outline-secondary" type="button">Limpar</button>
         </div>
         <div>

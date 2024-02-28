@@ -1,0 +1,3 @@
+Introduced onchange event where instead of needing to repressing the buttom 
+simply selecting the dish will automaticaly update the price where as my original
+code would only update once the buttom was pressed.
