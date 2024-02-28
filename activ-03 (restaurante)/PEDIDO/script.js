@@ -15,7 +15,21 @@ function show(nome){
     }
 
 }
-    function fechar(){
-        document.getElementById("error").style.display = "none"; 
-        document.getElementById("exampleFormControlInput1").style.background = "pink";
-    }
+
+function fechar(){
+    document.getElementById("error").style.display = "none"; 
+    document.getElementById("exampleFormControlInput1").style.background = "pink";
+}
+
+function total(){
+    var vp = document.getElementById("selectPrato").value;
+    var vs = document.getElementById("selectSobremesa").value;
+    var vb = document.getElementById("selectBebida").value;
+    
+
+    var total = ~~vp + ~~vb + ~~vs
+    console.log(~~total)
+    console.log(typeof total);
+
+
+}
